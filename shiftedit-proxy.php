@@ -22,7 +22,7 @@ $origin = $_SERVER['HTTP_ORIGIN'] ?: '{$origin}'; // CORS origin: https://shifte
 // restrict access by ip
 $ip_restrictions = false;
 
-// allowed ips. get your ip from https://www.google.co.uk/search?q=ip+address
+// allowed ips. get your ip from https://www.google.be/search?q=ip+address&hl=fr&gl=BE
 $ips = array('');
 
 // api version
